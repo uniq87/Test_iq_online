@@ -1,0 +1,261 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: "Europe"; 
+	url("font/europe.ttf") format("ttf"); 
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	background: White;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	height: 732px;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+    width: 1000px;
+	height: 75px;
+	background: #fff;
+	border: 0px solid red;
+	margin-top: 20px;
+}
+
+.logo {
+    background-image: url(./images/logo.png);
+    width: 75px;
+    height: 75px;
+}
+.logo_text p {
+    font-family: "Europe";
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    width: 128px;
+    margin-left: 88px;
+    margin-top: 24px;
+    padding:0;
+}
+
+.phone_one {
+    margin-top: -38px;
+    margin-left: 795px;
+    width: 132px;
+    font-family: "Europe";
+    font-size: 18px;
+    color: #E0491EFF;
+    letter-spacing: 1px;
+}
+
+.phone_two {
+    margin-top: 0;
+    margin-left: 795px;
+    width: 144px;
+    font-family: "Europe";
+    font-size: 18px;
+    color: #E0491EFF;
+    word-spacing: 2px;
+}
+
+.menu {
+    width: 1000px;
+    height: 50px;
+    border: 0px solid yellow;
+    margin-top: 18px;
+}
+
+
+.menu ul {
+  list-style: none; 
+  margin: 0; 
+  padding-left: 0; 
+  background:black;
+  height: 50px; 
+}
+.menu ul li a {
+  text-decoration: none;
+  background:black; 
+  color:#fff; 
+  padding-right: 38px;
+  text-align: center;
+  padding-left: 38px;
+  font-family: arial; 
+  font-size: 14px;
+  line-height:50px;
+  display: block; 
+  border-right: 1px solid #F36262; 
+  -moz-transition: all 0.3s 0.01s ease; 
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+
+}
+.menu ul li a:hover {
+  background:#F03D1AFF;
+}
+.menu ul li {
+  float:left; 
+}
+
+#navi_1 {
+    padding-left: 62px;
+    padding-right: 34px;
+}
+
+#navi_2 {
+    padding-left: 32px;
+    padding-right: 65px;
+    border-right:0px solid #000;
+}
+
+.crumbs {
+    height:50px;
+    border: 0px solid black;
+}
+
+.crumbs ul {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.crumbs ul li a {
+    color: #717171FF;
+    margin: 0px 5px 0px 0px;
+    font-style: Arial;
+    font-size: 12px;
+}
+
+.crumbs ul li a:visited {
+    text-decoration: none;
+}
+
+.crumbs ul li {
+    float: left;
+}
+
+.crumbs ul li span {  
+  margin-right: 5px;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+    width: 640px;
+    height: 370px;
+	margin-bottom: 84px;
+	
+	border: 0px solid blue;
+}
+
+.content p {
+    font: 30px Arial;
+    color: #F03D1AFF;
+    margin: 16px 0px 32px 94px;
+}
+
+.calc-form label {
+    display: inline-block;
+    font: bold 14px Arial;
+    color: #3E3E3EFF;
+    margin: 0px 0px 26px 18px;
+    text-align: right;
+    border: 0px solid black;
+    width: 188px;
+}
+
+.input-width {
+    width: 84px;
+    font: 14px Arial;
+    margin: 0px 0px 0px 26px;
+    border: 1px solid #CFD1D2FF;
+}
+
+input[type=radio] {
+    margin-left: 26px;
+}
+
+
+input[type=button] {
+    font: bold 12px Arial;
+    color: #385315FF;
+    margin-left: 22px;
+    margin-top: 18px;
+    width: 103px;
+    height: 36px;
+    background: linear-gradient(to bottom, #BAF256FF, #7CC838FF);
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 1px 1px 1px yellow;
+}
+
+.calc-form #result_form {
+    font: bold 12px Arial;
+    text-align: left;
+    color: #385315FF;
+    margin-left: 22px;    
+} 
+
+
+.contribution {
+    display: flex;
+}
+
+.slider-one {
+	width: 240px;
+	height: 8px;
+	margin-left: 16px;
+}
+
+.price {
+    display: flex;
+}
+
+#price1 {
+    font: italic 10px Verdana;
+    display: inline;
+    margin-left: -100px;
+}
+
+#price2 {
+    font: italic 10px Verdana;
+    display: inline;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	width: 1000px;
+	height: 50px;
+	background: #000;
+	margin:0 2px;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin-left: 32px;
+}
+
+.footer ul li {
+    float: left;
+    margin-left: 26px;
+    margin-top: 10px;
+}
+
+.footer ul li a {
+    color: #fff;
+    font-family: Arial;
+    font-size: 12px;
+}
